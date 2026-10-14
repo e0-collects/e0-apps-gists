@@ -43,4 +43,4 @@ Stand-in is not directed at children and collects no personal information from a
 If this policy changes, the new version will be posted with the extension and its effective date updated.
 
 ## Contact
-Questions: open an issue on the extension's support page, or use the contact address on its Chrome Web Store listing.
+email at ezerocollective@gmail.com
