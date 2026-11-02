@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Stand-in: Hide Your Name When You Record**
+**Stand-in: Hide Your Personal Info When You Record**
 Effective date: October 14, 2026
 
 Stand-in is a browser extension that swaps words you choose (such as your name or email address) for stand-ins on web
