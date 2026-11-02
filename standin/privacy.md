@@ -15,7 +15,10 @@ pages, so you can record or share your screen without showing them. This policy 
 Your settings are saved with `chrome.storage.local` in your Chrome profile:
 - the words you want to hide, and what to show instead
 - whether to hide email addresses, and the placeholder to use
-- the CSS selectors to blur
+- the CSS selectors to blur, and the parts of pages you blurred by clicking (saved per site as a short page
+  address of the element, like `body > header > img`, never the content)
+- which kinds of details to hide automatically (emails, phone numbers, card numbers, street addresses) and the
+  placeholders
 - the sites to use it on, whether pages stay blank until masked, and whether Stand-in is on
 
 This data never leaves your computer. Removing the extension deletes it.
@@ -29,8 +32,8 @@ A small helper runs in each page to notice when the page builds new parts of its
 Stand-in with an event that carries no data.
 
 While Stand-in is on, a website could detect that it is installed and, by showing text and checking whether it
-changes, work out which words you are swapping. Stand-in starts switched off, shows "ON" on its icon while it works,
-and can be limited to the sites you choose, so you can keep it off everywhere else.
+changes, work out which words you are swapping. Stand-in starts switched off and can be limited to the sites you
+choose, so you can keep it off everywhere else.
 
 ## Permissions
 - `storage`: saves your settings on your computer.
